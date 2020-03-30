@@ -1,24 +1,17 @@
 .wrapper1 {
-  background-color: aqua;
   display: flex;
-  justify-content: space-between;
   height: 50vh;
-  flex-wrap: wrap-reverse;
-  align-content: space-around;
+  flex-wrap: nowrap;
 }
 
 .wrapper2 {
-  background-color: cornflowerblue;
   display: flex;
-  justify-content: space-between;
   height: 50vh;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  flex-direction: row-reverse;
+  flex-wrap: nowrap;
 }
 
 .box {
-  width: 200px;
+  width: 300px;
   height: 200px;
   background-color: peru;
   color: white;
@@ -26,4 +19,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.box:nth-child(2) {
+  background: #000;
+}
+
+.wrapper2 .box:nth-child(2) {
+  flex-shrink: 2;
 }
