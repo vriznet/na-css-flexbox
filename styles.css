@@ -9,13 +9,9 @@
   height: 200px;
   background-color: peru;
   color: white;
-  font-size: 50
+  font-size: 50px;
 }
 
 .box:nth-child(2) {
-  align-self: center;
-}
-
-.box:nth-child(3) {
-  align-self: flex-end;
+  order: 1;
 }
