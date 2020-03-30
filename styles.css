@@ -1,8 +1,19 @@
-body {
+.boxCollection1 {
     display: flex;
+    justify-content: center;
 }
 
-.box{
+.boxCollection2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxCollection3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
     width: 200px;
     height: 200px;
     background-color: peru;
