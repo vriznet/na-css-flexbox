@@ -1,15 +1,20 @@
 .wrapper1 {
+  background-color: aqua;
   display: flex;
   justify-content: space-between;
   height: 50vh;
-  flex-wrap: nowrap;
+  flex-wrap: wrap-reverse;
+  align-content: space-around;
 }
 
 .wrapper2 {
+  background-color: cornflowerblue;
   display: flex;
   justify-content: space-between;
   height: 50vh;
   flex-wrap: wrap;
+  align-content: flex-start;
+  flex-direction: row-reverse;
 }
 
 .box {
