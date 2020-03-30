@@ -1,21 +1,14 @@
-.boxCollection1 {
-    display: flex;
-    justify-content: center;
-}
-
-.boxCollection2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.boxCollection3 {
-    display: flex;
-    justify-content: space-around;
+.wrapper {
+  display: flex;
+  background-color: #88EEFF;
+  justify-content: center;
+  align-items: stretch;
+  width: 100vw;
+  height: 100vh;
 }
 
 .box {
-    width: 200px;
-    height: 200px;
-    background-color: peru;
-    color: white;
+  width: 200px;
+  background-color: peru;
+  color: white;
 }
